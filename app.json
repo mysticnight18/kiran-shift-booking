@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Shift Booking",
+    "slug": "kiran-shift-booking",
+    "version": "1.0.0",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "bundleIdentifier": "com.ishantjain.shiftbooking",
+      "infoPlist": {
+        "NSLocalNetworkUsageDescription": "Connect to the local shift booking demo server.",
+        "NSAppTransportSecurity": { "NSAllowsLocalNetworking": true }
+      }
+    },
+    "android": {
+      "package": "com.ishantjain.shiftbooking"
+    }
+  }
+}

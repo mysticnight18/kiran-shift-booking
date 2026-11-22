@@ -1,0 +1,22 @@
+{
+  "name": "kiran-shift-booking",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "api": "node api/server.mjs",
+    "start": "expo start",
+    "ios": "expo start --ios",
+    "android": "expo start --android",
+    "web": "expo export --platform web && node api/server.mjs --web"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~56.0.21",
+    "expo": "~56.0.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "~0.85.3",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-web": "~0.21.0"
+  }
+}
